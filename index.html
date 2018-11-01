@@ -166,7 +166,10 @@
             letter-spacing: 10px;
         }  
         }
-        @media(max-width:375px) {
+        @media only screen 
+        and (device-width : 375px) 
+        and (device-height : 812px) 
+        and (-webkit-device-pixel-ratio : 3) {
         ul {
         list-style-type: none;
             margin: 0;
